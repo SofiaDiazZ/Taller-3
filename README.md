@@ -3,5 +3,5 @@
 # Nombre de los integrantes
 - Sofía Díaz Zapata
 - Sebastián Veláquez Pérez
-#Ejecutable
+# Ejecutable
 https://drive.google.com/drive/u/0/folders/1S-nYK9TAeXtg78nDUjEutTvZ33-gFTSN
