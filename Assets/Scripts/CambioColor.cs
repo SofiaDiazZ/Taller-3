@@ -1,6 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class CambioColor : MonoBehaviour
 {
@@ -11,7 +11,7 @@ public class CambioColor : MonoBehaviour
    
     public void Awake()
     {
-        if (Instance ! = null)
+        if (Instance != null)
     {
         Destroy(gameObject);
     }
@@ -24,7 +24,7 @@ public class CambioColor : MonoBehaviour
 
     public void Notify()
     {
-        if(OnButtonClicked ! = null)
+        if(OnButtonClicked != null)
         {
             OnButtonClicked(contador);
             contador++;
