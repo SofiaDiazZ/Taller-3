@@ -35,7 +35,7 @@ if(color == true && color2 == false)
 
 else if(color == false && color2 == false)
 {
-    colorCubo.material.color = Color.cyan;
+    colorCubo.material.color = Color.yellow;
     color = true;
 }
 
@@ -47,7 +47,7 @@ else if(color == false && color2 == true)
 
 else if(color == true && color2 == true)
 {
-    colorCubo.material.color = Color.yellow;
+    colorCubo.material.color = Color.cyan;
     color2 = true;
 }
 
