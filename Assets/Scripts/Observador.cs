@@ -23,21 +23,22 @@ public class Observador : MonoBehaviour
        {
            case 1:
            colorCubo.material.color = Color.red;
+                print(1);
            break;
 
            case 2:
             colorCubo.material.color = Color.cyan;
-            
+                print(2);
             break;
 
             case 3:
             colorCubo.material.color = Color.green;
-            
+                print(3);
             break;
 
             case 4:
             colorCubo.material.color = Color.yellow;
-            
+                print(4);
             break;
        }
        
