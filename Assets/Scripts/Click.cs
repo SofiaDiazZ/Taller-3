@@ -8,7 +8,7 @@ public class Click : MonoBehaviour
    private void Update()
     {
         
-        if(Input.GetMouseButtonDown(1))
+        if(Input.GetMouseButtonDown(0))
        {
            CambioColor.Instance.Notify();
        }

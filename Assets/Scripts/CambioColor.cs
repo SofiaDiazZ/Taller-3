@@ -12,14 +12,14 @@ public class CambioColor : MonoBehaviour
     public void Awake()
     {
         if (Instance != null)
-    {
+    
         Destroy(gameObject);
-    }
+    
 
         else
-        {
+        
         Instance = this;
-        }
+        
     }
 
     public void Notify()
@@ -28,7 +28,7 @@ public class CambioColor : MonoBehaviour
         {
             OnButtonClicked(contador);
             contador++;
-            if (contador > 4)
+            if (contador >4)
             {
             contador = 1;
             }
