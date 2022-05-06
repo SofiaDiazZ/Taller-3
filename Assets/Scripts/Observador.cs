@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Observador : MonoBehaviour
 {
-    private Renderer colorCubo;
-    // Start is called before the first frame update
+    private SpriteRenderer colorCubo;
     void Start()
     {
-        colorCubo = GetComponent<Renderer>();
+        colorCubo= gameObject.GetComponent<SpriteRenderer>();
         CambioColor.Instance.OnButtonClicked+= color;
     }
 
-    // Update is called once per frame
     private void color(int contador)
     {
         cambiaColor(contador);
@@ -25,7 +23,6 @@ public class Observador : MonoBehaviour
        {
            case 1:
            colorCubo.material.color = Color.red;
-           
            break;
 
            case 2:
